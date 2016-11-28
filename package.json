@@ -1,7 +1,7 @@
 {
-  "name": "OpenShift-Sample-App",
+  "name": "PassportExample",
   "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "description": "Example app using Passport for local strategy authentication",
   "keywords": [
     "OpenShift",
     "Node.js",
@@ -9,27 +9,26 @@
     "openshift"
   ],
   "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
+    "name": "Joe Mertz",
+    "email": "joemertz@cmu.edu"
   },
-  "homepage": "http://www.openshift.com/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/openshift/origin-server"
-  },
-
   "engines": {
     "node": ">= 0.6.0",
     "npm": ">= 1.0.0"
   },
-
   "dependencies": {
-    "express": "~3.4.4"
+    "body-parser": "^1.14.1",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "morgan": "^1.6.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "mongodb": "^2.0.48"
   },
   "devDependencies": {},
   "bundleDependencies": [],
-
   "private": true,
-  "main": "server.js"
+  "main": "app.js",
+  "start": "node app.js"
 }
