@@ -443,7 +443,7 @@ doSearch3 = function(req, res){
         if(max_index >= 0){
           result2.push(result[max_index]);
         }
-        if(max_index >= 0){
+        if(max_index2 >= 0){
           result2.push(result[max_index2]);
         }
 
