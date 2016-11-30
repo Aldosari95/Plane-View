@@ -41,7 +41,7 @@ $(function() {
 	     $("#s_personality1").html($("#signup_personality1").val());
 	     $("#s_personality2").html($("#signup_personality2").val());
 	     $("#s_seat1").html($("#signup_seat1").val());
-	     $("#s_seat2").html($("#signup_seat2").val());
+	     // $("#s_seat2").html($("#signup_seat2").val());
 	     $("#s_food1").html($("#signup_food1").val());
 	     $("#s_food2").html($("#signup_food2").val());
 	     $("#s_email").html($("#signup_username").val());
